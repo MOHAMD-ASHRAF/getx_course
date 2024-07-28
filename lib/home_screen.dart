@@ -19,7 +19,6 @@ class HomeScreen extends StatelessWidget {
             child: MaterialButton(
               onPressed: () {
                 Get.toNamed('/firstScreen');
-
               },
               textColor: Colors.white,
               shape: RoundedRectangleBorder(
