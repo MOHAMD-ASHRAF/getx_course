@@ -19,6 +19,7 @@ class HomeScreen extends StatelessWidget {
         children: [
            Obx(()=> Column(
                 children: [
+
                   Text(controller.index.toString(),
                     style: Theme.of(context).textTheme.headlineLarge,
                     textAlign: TextAlign.center,
