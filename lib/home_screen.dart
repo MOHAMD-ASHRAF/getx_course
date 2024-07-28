@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('home screen'),
+
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
