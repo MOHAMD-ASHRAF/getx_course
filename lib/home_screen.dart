@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: MaterialButton(
               onPressed: () {
-                Get.to(const FirstScreen());
+                Get.toNamed('/firstScreen');
 
               },
               textColor: Colors.white,
