@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
@@ -16,7 +17,9 @@ class FirstScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: MaterialButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.toNamed('/SecondScreen');
+              },
               textColor: Colors.white,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25),
